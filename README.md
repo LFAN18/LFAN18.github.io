@@ -1,2 +1,2 @@
-# LFAN18.github.io
-Website of Luis Francisco Albert Navarro, Computer Engineer
+# web
+Repositorio de código con ejemplo de página web sencilla pero eficaz.
