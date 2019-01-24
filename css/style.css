@@ -1,4 +1,32 @@
-#header-text-nav-container {
-    border-bottom: 1px solid #F2F2F2;
-    background-color: #F8F8F8;
+/* Página donde se definen los estilos de l@s diferentes clases y atributos*/
+
+body {
+	
+}
+
+footer {
+	background-color: #b8e7ff;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.container.header-body {
+	background-color: #f2fffd;
+	text-align: center;
+}
+
+.text-container.theme1 li {
+		margin: 0;
+		padding: 0;
+	}							
+							
+.text-container.theme1 a {
+		background: ;
+		display: inline-block;
+		text-decoration: none;
+	}
+	
+.footer-menu {
+	text-align: center;
 }
