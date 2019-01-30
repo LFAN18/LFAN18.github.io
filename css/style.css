@@ -1,34 +1,69 @@
 /* Página donde se definen los estilos de l@s diferentes clases y atributos*/
 
+html {
+ 	min-height: 100%; 
+	position: relative;
+	background-color: #f4f8f8;
+}
+
+html a {
+	text-decoration: none;
+}
+
 body {
-	
+	margin: 0;
+	margin-bottom: 130px;
+}
+
+.header-menu {
+	background-color: #81aacd;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	width: 130px;
+}
+
+.container.body {
+	text-align: center;
+	font-family: serif;
+	font-size: 175%;
+}
+
+.body-header {
+	text-align: center;
+	font-family: serif;
+	font-size: 125%;
+}
+
+.text-container.theme1 {
+	font-family: serif;
+	font-size: 125%;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 175px;
 }
 
 footer {
-	background-color: #b8e7ff;
+	background-color: #81aacd;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-}
-
-.container.header-body {
-	background-color: #f2fffd;
 	text-align: center;
-	font-family: serif;
-	font-size: 150%;
+	height: 130px;
 }
 
-.text-container.theme1 li {
-		margin: 0;
-		padding: 0;
-	}							
-							
-.text-container.theme1 a {
-		background: ;
-		display: inline-block;
-		text-decoration: none;
-	}
-	
+footer a {
+	color: #f4f8f8;
+}
+
+.footer-logo {
+	float: left;
+	margin: 25px;
+	width: 130px;
+}
+
 .footer-menu {
-	text-align: center;
+	float: center;
 }
+
