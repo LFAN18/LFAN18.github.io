@@ -1,4 +1,5 @@
-/* Página donde se definen los estilos de l@s diferentes clases y atributos*/
+/* Web personal de Luis Francisco Albert Navarro, Ingeniero Informático con la especialidad de Tecnologías de la Información, donde plasmar parte de sus conocimientos en HTML, CSS, JavaScript, control de versiones, etc... 
+Página donde se definen los estilos de las diferentes clases y atributos*/
 
 html {
  	min-height: 100%; 
@@ -12,36 +13,54 @@ html a {
 
 body {
 	margin: 0;
-	margin-bottom: 130px;
+	position:absolute;
 }
 
-.header-menu {
-	background-color: #81aacd;
-	position: absolute;
-	top: 0;
+.container.header-menu {
 	width: 100%;
+	height: 150px;
+}
+
+#logo_lfan {
+	float: left;
+	margin-left:20px;
+}
+	
+.menu-header-container {
+	/*display: flex;*/
+	background-color: #81aacd;
 	text-align: center;
-	width: 130px;
+	align-items: center;
+	justify-content: center;
+	/*height: 50px;
+	width: 100%;*/
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.menu-header {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 150%;
 }
 
 .container.body {
 	text-align: center;
 	font-family: serif;
-	font-size: 175%;
+	font-size: 125%;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 175px;
+	margin-bottom: 175px;
 }
 
 .body-header {
 	text-align: center;
 	font-family: serif;
-	font-size: 125%;
 }
 
 .text-container.theme1 {
-	font-family: serif;
-	font-size: 125%;
-	margin-left: 150px;
-	margin-right: 150px;
-	margin-bottom: 175px;
+	text-align: left;
 }
 
 footer {
@@ -50,20 +69,18 @@ footer {
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-	height: 130px;
+	height: 110px;
+	color: #f4f8f8;
 }
 
-footer a {
+a {
 	color: #f4f8f8;
 }
 
 .footer-logo {
 	float: left;
-	margin: 25px;
-	width: 130px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 120px;
+	width: 120px;
 }
-
-.footer-menu {
-	float: center;
-}
-
