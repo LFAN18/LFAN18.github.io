@@ -13,7 +13,6 @@ html a {
 
 body {
 	margin: 0;
-	/*position:absolute;*/
 }
 
 .container.header-menu {
@@ -27,15 +26,10 @@ body {
 }
 	
 .menu-header-container {
-	/*display: flex;*/
 	background-color: #81aacd;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-	/*height: 50px;
-	width: 100%;
-	margin-left: 20px;
-	margin-right: 20px;*/
 }
 
 .menu-header {
