@@ -65,16 +65,20 @@ footer {
 	text-align: center;
 	height: 110px;
 	color: #f4f8f8;
+	list-style: none;
 }
 
 a {
 	color: #f4f8f8;
 }
 
+.footer-menu ul {
+   list-style:none;
+}
+
 .footer-logo {
 	float: left;
 	margin-top: 20px;
 	margin-left: 20px;
-	margin-right: 120px;
 	width: 120px;
 }
