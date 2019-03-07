@@ -42,13 +42,17 @@ body {
 	font-size: 150%;
 }
 
-.container.body {
+.container-body {
 	text-align: center;
 	font-family: serif;
 	font-size: 125%;
 	margin-left: 100px;
 	margin-right: 100px;
 	margin-bottom: 175px;
+}
+
+.container-body a{
+	color: #81aacd;
 }
 
 .body-header {
