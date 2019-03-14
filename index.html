@@ -5,16 +5,19 @@
 		<meta charset="utf-8">
 		<meta name="description" content="Web personal de Luis Francisco Albert Navarro. Ingeniero Informático con la especialidad de Tecnologías de la Información..">
 		<meta name="author" content="Luis Francisco Albert Navarro">
+		<!--Le indico donde están los archivos js que voy a utilizar -->
+		<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>  
+      	<script src="js/functions.js" type="text/javascript"></script>
 			<!--Título de la página -->
-		<title>Luis Francisco Albert Navarro</title>
-			<!--Links donde accede -->
+		<title>LFAN</title>
+			<!--Links donde accede a los archivos de estilo -->
 		<link href="css/style.css" rel="stylesheet">
+			<!--Link donde accede a la imagen del icono -->
 		<link rel="shortcut icon" href="img/IconoLFAN_2017_256x256.ico">
-		
 	</head>
 
 	<body> 	<!--Cuerpo de la página, donde se introduce el contenido -->
-		<header class="container-header-menu">
+		<header class="container-header-menu">	<!--Cabecera común a todas las páginas  -->
 			<div class="logo">
 				<img id="logo_lfan" src="img/LogoLFAN_2019.png" title="LFAN">
 				<div class="body-header">
@@ -23,19 +26,21 @@
 			</div>	
 			<nav class="menu-header-container">
 				<a id="home" class="menu-header" href="https://lfan18.github.io/" title="Página principal">Home</a>
-				<a id="formacion" class="menu-header" href="pages/formacion" title="Formación recibida">Formación</a>
-				<a id="experiencia" class="menu-header" href="pages/experiencia" title="Experiencia acumulada">Experiencia</a>
-				<a id="proyectos" class="menu-header" href="pages/proyectos" title="Proyectos realizados">Proyectos</a>
-				<a id="contacto" class="menu-header" href="pages/contacto" title="Contacta conmigo">Contacto</a>
-				<a id="noticias" class="menu-header" href="pages/noticias" title="Noticias de interes">Noticias</a>
+				<a id="formacion" class="menu-header" href="#" title="Formación recibida">Formación</a>
+				<a id="experiencia" class="menu-header" href="#" title="Experiencia acumulada">Experiencia</a>
+				<a id="proyectos" class="menu-header" href="#" title="Proyectos realizados">Proyectos</a>
+				<a id="contacto" class="menu-header" href="#" title="Contacta conmigo">Contacto</a>
+				<a id="noticias" class="menu-header" href="#" title="Noticias de interes">Noticias</a>
 			</nav>
 		</header>
 		
-		<div class="container-body">
+		<div class="container-body" id=container> <!--Esta es la parte variable de las diferentes páginas -->
 			<img src="img/LFAN-en-Construccion.jpg" title="Perdonen las molestias.">
 			<p> Página en construcción, perdonen las molestias. </p>
 		</div>
-			<!--Pie de la página, donde se incluyen enlaces de interes y marca personal -->    
+		<div id="container-body-content">
+		</div>
+			<!--Pie de la página, donde se incluyen enlaces de interes y marca personal, común en todas -->    
 		<footer class="container footer">
 			<div class="footer-logo">
 				<a href="https://www.linkedin.com/in/luisalbertnavarro" target="blank"><img src="img/linkedin-icon.png" title="Perfil de LinkedIn" width=35></a>
@@ -46,16 +51,20 @@
 			<nav class="footer-menu"> 
 				<div class="menu-footer_menu-container">
 					<ul id="menu-footer_menu" class="menu">
-						<li id="contacto_link" class="menu-footer"><a href="pages/contacto">Contacto</a></li>
-						<li id="noticias_link" class="menu-footer"><a href="pages/noticias">Noticias</a></li>
-						<li id="politica_link" class="menu-footer"><a href="pages/politica" title="Política de Cookies" target="_blank">Política de cookies</a></li>
-						<li id="aviso_link" class="menu-footer"><a href="pages/aviso" title="Aviso Legal" target="_blank">Aviso legal</a></li>
+						<li id="contacto_link" class="menu-footer"><a href="#" title="Contacta conmigo">Contacto</a></li>
+						<li id="noticias_link" class="menu-footer"><a href="#" title="Noticias de interes">Noticias</a></li>
+						<li id="politica_link" class="menu-footer"><a href="#" title="Política de Cookies" >Política de cookies</a></li>
+						<li id="aviso_link" class="menu-footer"><a href="#" title="Aviso Legal" >Aviso legal</a></li>
 						<!--<li id="mapa_link" class="menu-footer"><a href="pages/mapa target="_blank"">Mapa del Sitio</a></li> -->
 					</ul>
 				</div>		    			
 			</nav>
-			
 		</footer>
-		
+		<!--Codigo de aviso para cumplir con la política de cookies -->
+		<div id="cookiebox">	
+			<p>Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
+			<a id="aviso_politica_link" href="#">Más información</a>.
+			<button onclick="aceptar_cookies();" style="cursor:pointer;"> Cerrar</button></p>
+		</div>
 	</body>
 </html>
