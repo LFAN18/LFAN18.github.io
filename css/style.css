@@ -39,8 +39,9 @@ body {
 	font-size: 125%;
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-bottom: 175px;
 	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-block-end: 150px;
 }
 
 #container-body-content a{
@@ -56,14 +57,11 @@ body {
 	text-align: left;
 }
 
-#container-body-content {
-	margin-block-end: 150px;
+.container-in {
+
 }
 
-.art_politica {
-	text-align: center;
-	font-family: serif;
-	font-size: 125%;
+.art-politica {
 	margin-left: 100px;
 	margin-right: 100px;
 	margin-bottom: 100px;
@@ -110,4 +108,15 @@ a {
     margin-right:5px;
     text-decoration: underline;
 	color: #81aacd;
+}
+
+.noticia{
+	width: 400px; 
+	height: 320px;
+	background-color: #81aacd;
+	color: #f4f8f8;
+	float: left;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-bottom: 150px;
 }
