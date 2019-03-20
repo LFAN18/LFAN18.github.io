@@ -44,6 +44,10 @@ body {
 	margin-block-end: 150px;
 }
 
+#container-home {
+	color: #81aacd;
+}
+
 #container-body-content a{
 	color: #81aacd;
 }
@@ -55,10 +59,6 @@ body {
 
 .text-container.theme1 {
 	text-align: left;
-}
-
-.container-in {
-
 }
 
 .art-politica {
@@ -119,4 +119,16 @@ a {
 	margin-left: 75px;
 	margin-right: 75px;
 	margin-bottom: 150px;
+}
+
+#video_background { 
+	position: absolute; 
+	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: auto; 
+	z-index: -1000; 
+	overflow: hidden; 
 }
