@@ -1,9 +1,9 @@
 /* Web personal de Luis Francisco Albert Navarro, Ingeniero Informático con la especialidad de Tecnologías de la Información, donde plasmar parte de sus conocimientos en HTML, CSS, JavaScript, control de versiones, etc... 
 Archivo donde se definen las funciones de JavaScript*/
 
-$(document).ready(function(){
-   	//código a ejecutar cuando el DOM está listo para recibir instrucciones.
-	
+$(document).ready(function() {
+	//código a ejecutar cuando el DOM está listo para recibir instrucciones.
+
 	//Cargar página Política desde aviso de cookies
       $("#aviso_politica_link").click(function(evento){
          evento.preventDefault();

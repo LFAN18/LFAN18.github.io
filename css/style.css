@@ -93,6 +93,11 @@ a {
 	width: 120px;
 }
 
+.footer-validate {
+	float: right;
+	margin-right: 20px;
+}
+
 #cookiebox {
     position: fixed;
     bottom: 0px;
