@@ -70,7 +70,14 @@ $(document).ready(function() {
 	  //Cargar página Formacion 
       $("#formacion").click(function(evento){
          evento.preventDefault();
-         $("#container-home").css("display", "");
+         $("#container-home").css("display", "none");
+         $("#container-body-content").load("pages/formacion.html");
+      });
+	  
+	  //Cargar página Formacion desde cartel
+      $("#c_formacion").click(function(evento){
+         evento.preventDefault();
+         $("#container-home").css("display", "none");
          $("#container-body-content").load("pages/formacion.html");
       });
 	  
