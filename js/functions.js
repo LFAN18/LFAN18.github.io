@@ -31,7 +31,12 @@ $(document).ready(function() {
          $("#container-home").css("display", "none");
          $("#container-body-content").load("pages/noticias.html");
       });
-	  
+	  //Cargar página Noticias desde cartel 
+      $("#c_noticias").click(function(evento){
+         evento.preventDefault();
+         $("#container-home").css("display", "none");
+         $("#container-body-content").load("pages/noticias.html");
+      });
 	  //Cargar página Noticias Footer 
       $("#noticias_link").click(function(evento){
          evento.preventDefault();
@@ -42,28 +47,40 @@ $(document).ready(function() {
 	  //Cargar página Contacto 
       $("#contacto").click(function(evento){
          evento.preventDefault();
-         $("#container-home").css("display", "");
+         $("#container-home").css("display", "none");
          $("#container-body-content").load("pages/contacto.html");
       });
 	  
 	  //Cargar página Contacto Footer 
       $("#contacto_link").click(function(evento){
          evento.preventDefault();
-         $("#container-home").css("display", "");
+         $("#container-home").css("display", "none");
          $("#container-body-content").load("pages/contacto.html");
       });
 	  
 	  //Cargar página Proyectos 
       $("#proyectos").click(function(evento){
          evento.preventDefault();
-         $("#container-home").css("display", "");
+         $("#container-home").css("display", "none");
+         $("#container-body-content").load("pages/proyectos.html");
+      });
+	  //Cargar página Proyectos desde cartel 
+      $("#c_proyectos").click(function(evento){
+         evento.preventDefault();
+         $("#container-home").css("display", "none");
          $("#container-body-content").load("pages/proyectos.html");
       });
 	  
 	  //Cargar página Experiencia 
       $("#experiencia").click(function(evento){
          evento.preventDefault();
-         $("#container-home").css("display", "");
+         $("#container-home").css("display", "none");
+         $("#container-body-content").load("pages/experiencia.html");
+      });
+	   //Cargar página Experiencia desde cartel
+      $("#c_experiencia").click(function(evento){
+         evento.preventDefault();
+         $("#container-home").css("display", "none");
          $("#container-body-content").load("pages/experiencia.html");
       });
 	  
@@ -80,7 +97,6 @@ $(document).ready(function() {
          $("#container-home").css("display", "none");
          $("#container-body-content").load("pages/formacion.html");
       });
-	  
 }); 
 
 //Funciones que utilizo para cumpliri con el aviso de política de cookies.

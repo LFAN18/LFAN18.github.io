@@ -2,5 +2,83 @@
 Página dedicada a publicar los proyectos interesantes sobre TI -->
 
 <div class="container-body">
-	
+	<article id="p_proyectos" class="art-">
+		<header class="body-header">
+			<h1 class="entry-title">Proyectos</h1>
+			<script>
+				//Cargar página Tiendecita desde cartel
+				$("#c_tienda").click(function(evento){
+					evento.preventDefault();
+					$("#container-home").css("display", "none");
+					$("#container-body-content").load("pages/tienda.html");
+				});
+			  
+				//Cargar página Generador desde cartel
+				$("#c_claves").click(function(evento){
+					evento.preventDefault();
+					$("#container-home").css("display", "none");
+					$("#container-body-content").load("pages/generador.html");
+				});
+			  
+				//Cargar página InvestigaUA desde cartel
+				$("#c_investiga").click(function(evento){
+					evento.preventDefault();
+					$("#container-home").css("display", "none");
+					$("#container-body-content").load("pages/investiga.html");
+				});
+			  
+				//Cargar página CompraV desde cartel
+				$("#c_comprav").click(function(evento){
+					evento.preventDefault();
+					$("#container-home").css("display", "none");
+					$("#container-body-content").load("pages/comprav.html");
+				});
+			  
+				//Cargar página BooksM desde cartel
+				$("#c_booksm").click(function(evento){
+					evento.preventDefault();
+					$("#container-home").css("display", "none");
+					$("#container-body-content").load("pages/booksm.html");
+				});
+			  
+				//Cargar página Clases desde cartel
+				$("#c_clases").click(function(evento){
+					evento.preventDefault();
+					$("#container-home").css("display", "none");
+					$("#container-body-content").load("pages/clases.html");
+				});
+			</script>
+		</header>
+		<h4>Página donde se muestran los diferentes proyectos realizados por Luis Francisco Albert Navarro a lo largo de sus estudios y al finalizarlos.</h4>
+		<div class="cartel_p" id="c_tienda">
+				<p>La Tiendecita</p>
+				<a href="#">
+				<img src="img/Tienda.png" title="La Tiendecita"></a>
+		</div>
+		<div class="cartel_p" id="c_claves">
+				<p>Generador de Claves</p>
+				<a href="#">
+				<img src="img/Claves.jpg" title="Generador Claves"></a>
+		</div>
+		<div class="cartel_p" id="c_investiga">
+				<p>InvestigaUA</p>
+				<a href="#">
+				<img src="img/InvestigaUA.png" title="InvestigaUA"></a>
+		</div>
+		<div class="cartel_p" id="c_comprav">
+				<p>Purchase sale of vehicles</p>
+				<a href="#">
+				<img src="img/CompraV.png" title="Purchase sale of vehicles"></a>
+		</div>
+		<div class="cartel_p" id="c_booksm">
+				<p>Books and Movies for this week</p>
+				<a href="#">
+				<img src="img/BooksM.png" title="Books and Movies for this week"></a>
+		</div>
+		<div class="cartel_p" id="c_clases">
+				<p>Clases Particulares</p>
+				<a href="#">
+				<img src="img/Clases.png" title="Clases Particulares"></a>
+		</div>
+	</article>
 </div>
