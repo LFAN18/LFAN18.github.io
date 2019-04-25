@@ -136,6 +136,11 @@ footer a:hover{
 	margin-bottom: 150px;
 }
 
+.noticia img {
+	width: 400px; 
+	height: 200px;
+}
+
 .noticia:hover {
 	transform: scale(1.025);
 }
