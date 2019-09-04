@@ -207,3 +207,11 @@ footer a:hover{
 .form_contacto a {
 	color: #f4f8f8;
 }
+
+.boton {
+	background-color: #769dbf;
+	color: #FFFFFF;
+	border-radius: 4px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
