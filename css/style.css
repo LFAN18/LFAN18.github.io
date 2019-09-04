@@ -201,12 +201,12 @@ footer a:hover{
 	text-align: left;
 	color: #f4f8f8;
 	margin-bottom: 150px;
-	margin-top: 100px; */
+	margin-top: 100px;
+	border:2px solid #f6f6f6;
+    padding:10px;
+	border-radius: 4px;
 }
 
-.form_contacto a {
-	color: #f4f8f8;
-}
 
 .boton {
 	background-color: #f4f8f8;
@@ -214,4 +214,6 @@ footer a:hover{
 	border-radius: 4px;
 	padding: 10px 20px;
 	cursor: pointer;
+	border:2px solid #f6f6f6;
+	float: center;
 }
