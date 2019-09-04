@@ -195,6 +195,14 @@ footer a:hover{
 	margin-left: 10px;
 }
 
+#formulario_google {
+	margin-bottom: 100px;
+	margin-top: 100px;
+    padding:50px;
+	border-radius: 25px;
+}
+
+/*
 .form_contacto {
 	background-color: #81aacd;
 	width: 100%;
@@ -225,4 +233,4 @@ footer a:hover{
 	border-radius: 25px;
 	padding: 10px 20px;
 	cursor: pointer;
-}
+}*/
