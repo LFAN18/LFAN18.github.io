@@ -31,9 +31,9 @@ Página dedicada a publicar las formas de contacto con LFAN -->
 				  
 				if ($_POST['submit']) {
 					if (mail($para, $titulo, $msjCorreo, $header)) {
-						echo <script language='javascript'>
-							alert('Mensaje enviado, muchas gracias.');
-							</script>;
+						echo "<script language='javascript'>
+								alert('Mensaje enviado, muchas gracias.');
+							 </script>";
 					} else {
 						echo 'Falló el envio';
 					}
@@ -44,7 +44,7 @@ Página dedicada a publicar las formas de contacto con LFAN -->
 			<img src="img/LFAN-en-Construccion.jpg" title="Perdonen las molestias." alt="WEB en Construcción">
 				<p>Página en construcción, perdonen las molestias.</p>
 		</div>-->
-		<form class="form_contacto" method="post">
+		<form class="form_contacto" action="<?php ?>" method="post">
 			<div class="campo_form">
 				<label> Nombre (requerido) <input type="text" name="nombre" placeholder="Tu Nombre" required="yes"></label>
 			</div>
