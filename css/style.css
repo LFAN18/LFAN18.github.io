@@ -52,6 +52,10 @@ body {
 	color: #81aacd;
 }
 
+#container-body-content a:hover{
+	font-size:120%;
+	color: black;
+}
 .body-header {
 	text-align: center;
 	font-family: serif;
@@ -206,8 +210,8 @@ footer container-body-content a:hover{
 	border-radius: 25px;
 }
 
-.form_contacto a {
-	color: #black;
+#container-body-content .form_contacto a{
+	color: #f4f8f8;
 }
 
 .campo_form {
