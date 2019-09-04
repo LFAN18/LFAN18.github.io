@@ -99,7 +99,7 @@ header a:hover{
 	width: 140px;
 }
 
-footer a:hover{
+footer container-body-content a:hover{
 	font-size:120%;
 	color: black;
 }
@@ -202,18 +202,22 @@ footer a:hover{
 	color: #f4f8f8;
 	margin-bottom: 150px;
 	margin-top: 100px;
-	border:2px solid #f6f6f6;
-    padding:10px;
-	border-radius: 4px;
+    padding:50px;
+	border-radius: 25px;
 }
 
+.form_contacto a {
+	color: #black;
+}
+
+.campo_form {
+	padding:5px;
+}
 
 .boton {
 	background-color: #f4f8f8;
 	color: #81aacd;
-	border-radius: 4px;
+	border-radius: 25px;
 	padding: 10px 20px;
 	cursor: pointer;
-	border:2px solid #f6f6f6;
-	float: center;
 }
