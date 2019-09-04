@@ -31,9 +31,9 @@ Página dedicada a publicar las formas de contacto con LFAN -->
 				  
 				if ($_POST['submit']) {
 					if (mail($para, $titulo, $msjCorreo, $header)) {
-						echo "<script language='javascript'>
+						echo <script language='javascript'>
 							alert('Mensaje enviado, muchas gracias.');
-							</script>";
+							</script>;
 					} else {
 						echo 'Falló el envio';
 					}
