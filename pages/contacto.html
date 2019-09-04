@@ -19,32 +19,12 @@ Página dedicada a publicar las formas de contacto con LFAN -->
 					$("#container-body-content").load("pages/aviso.html");
 				});
 			</script>
-			<?php
-				$nombre = $_POST['nombre'];
-				$email = $_POST['email'];
-				$asunto = $_POST['asunto'];
-				$mensaje = $_POST['mensaje'];
-				$para = 'luisfranciscoalbertnavarro@gmail.com';
-				$titulo = 'MENSAJE DE LA WEB LFAN';
-				$header = 'From: ' . $email;
-				$msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Asunto: $asunto\n  Mensaje:\n $mensaje";
-				  
-				if ($_POST['submit']) {
-					if (mail($para, $titulo, $msjCorreo, $header)) {
-						echo "<script language='javascript'>
-								alert('Mensaje enviado, muchas gracias.');
-							 </script>";
-					} else {
-						echo 'Falló el envio';
-					}
-				}
-			?>
 		</header>
 	<!--	<div class="text-container theme1">
 			<img src="img/LFAN-en-Construccion.jpg" title="Perdonen las molestias." alt="WEB en Construcción">
 				<p>Página en construcción, perdonen las molestias.</p>
 		</div>-->
-		<form class="form_contacto" action="<?php ?>" method="post">
+		<form class="form_contacto" action="contacto.php" method="post">
 			<div class="campo_form">
 				<label> Nombre (requerido) <input type="text" name="nombre" placeholder="Tu Nombre" required="yes"></label>
 			</div>
