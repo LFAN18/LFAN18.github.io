@@ -51,6 +51,13 @@ $(document).ready(function() {
          $("#container-body-content").load("pages/contacto.html");
       });
 	  
+	  //Cargar página Contacto desde cartel 
+      $("#c_contacto").click(function(evento){
+         evento.preventDefault();
+         $("#container-home").css("display", "none");
+         $("#container-body-content").load("pages/contacto.html");
+      });
+	  
 	  //Cargar página Contacto Footer 
       $("#contacto_link").click(function(evento){
          evento.preventDefault();
